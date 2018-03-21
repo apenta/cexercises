@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>To Do List</title>
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://www.techelevator.com/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <h1>todos</h1>
+
+
+
+    <div id="task-list">
+        <form id="new-task"  autocomplete="ignore">
+            <input type="checkbox" />
+            <input autocomplete="false" type="text" name="newTaskValue" placeholder="What needs to be done?" />
+        </form>
+        <div class="task">
+            <input type="checkbox">
+            <label>Learn JavaScript</label>           
+        </div>
+        <div class="task">
+            <input type="checkbox">
+            <label>Learn Riot</label>            
+        </div>
+        <div class="task">
+            <input type="checkbox">
+            <label>Review C#/Java</label>            
+        </div>
+    </div>
+
+    <a href="#" class="hidden" id="clearCompletedButton">Clear Completed</a>
+
+
+
+    <div id="requirements">
+        <h2>Requirements</h2>
+        <ol>
+            <li>When I check an item, the label is crossed out.</li>
+            <li>When I click an x next to the label, the item is deleted.</li>
+            <li>When I enter an item into the textbox and press enter, it is added to the list.</li>
+            <li>When I click on the button next to the textbox, all of the items are marked completed.</li>
+            <li>When I click on a label, it turns into a textbox for me to modify the item.</li>
+            <li>When I provide an empty value for the textbox, the item is deleted</li>
+            <li>When there are completed tasks, a "clear completed" button shows up that can remove them all.</li>
+            <li>When I click "active", the todo list is filtered to show items that have not been completed.</li>
+            <li>When I click "completed", the todo list is filtered to show items that are completed.</li>
+            <li>When I click "all", the filter is removed.</li>
+            <li>When an item is completed, the label shows how many items remain</li>
+        </ol>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

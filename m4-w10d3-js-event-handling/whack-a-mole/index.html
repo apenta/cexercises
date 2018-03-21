@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Whack A Mole!</title>
+  <link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="https://www.techelevator.com/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+  <h1>Whack-a-mole!
+    <span class="score">0</span>
+  </h1>
+  <button>Peek!</button>
+  <button>Start!</button>
+
+  <div class="game">
+    <div class="hole hole1">
+      <div class="mole"></div>
+    </div>
+    <div class="hole hole2">
+      <div class="mole"></div>
+    </div>
+    <div class="hole hole3">
+      <div class="mole"></div>
+    </div>
+    <div class="hole hole4">
+      <div class="mole"></div>
+    </div>
+    <div class="hole hole5">
+      <div class="mole"></div>
+    </div>
+    <div class="hole hole6">
+      <div class="mole"></div>
+    </div>
+  </div>
+
+  <!-- Requirements 
+1. When the Pop button is clicked, a mole pops up in a random dirt mound (add "up" class to the hole)
+2. When the Pop button is clicked, any moles currently visible are hidden (remove "up" class from the hole)
+3. When a mole is bonked, increment the score
+4. When the start button is pushed, have 30 moles appear in a random manner
+5. Add an item that appears that shouldn't be clicked on (and decrements the score if it is)
+...
+-->
+
+  <script src="script.js"></script>
+</body>
+
+</html>
