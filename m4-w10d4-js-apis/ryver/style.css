@@ -1,0 +1,24 @@
+body {
+    font-family: 'Tahoma', serif;
+    font-size: 16px;
+    background-color: #FFF;
+    margin: 0px;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10em;
+}
+
+#container>* {
+    font-size: 2rem;
+    padding: 3px;
+}
+
+#container button {
+    background-color: #3B3E42;
+    color: #999;
+    text-transform: lowercase;
+}
